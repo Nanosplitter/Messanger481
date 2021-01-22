@@ -2,9 +2,8 @@
 
 body,html{
     height: 100%;
-    margin: 0;
     background: #7F7FD5;
-   background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 }
 
@@ -17,3 +16,44 @@ body,html{
     background-color: black;
     border-radius: 25px;
 }
+
+.inputs {
+    vertical-align: middle;
+    margin-top: 25%;
+}
+
+input {
+    border-radius: 6px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.logo {
+    width: 75%;
+}
+
+a.button1 {
+    margin-top: 20px;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #000000;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+a.button1:hover{
+    color:#87ACE7;
+    background-color:#000000;
+}
+/* @media all and (max-width:30em){
+    a.button1{
+        display:block;
+        margin:0.4em auto;
+    }
+} */
