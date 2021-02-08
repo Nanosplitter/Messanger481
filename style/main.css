@@ -32,6 +32,14 @@ input {
     width: 75%;
 }
 
+.convTile {
+    height: 90%;
+}
+
+.convListTile {
+    height: 90%;
+}
+
 a.button1 {
     margin-top: 20px;
     display:inline-block;
